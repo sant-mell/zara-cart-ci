@@ -1,0 +1,12 @@
+{
+  "name": "zara-cart-ci",
+  "version": "1.0.0",
+  "description": "Zara online store shopping cart with an Apply coupon feature, used to learn CI with GitHub Actions",
+  "main": "src/cart.js",
+  "private": true,
+  "scripts": {
+    "test": "node --test",
+    "build": "node scripts/build.js"
+  },
+  "license": "MIT"
+}
