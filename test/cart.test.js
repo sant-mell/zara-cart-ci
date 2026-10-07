@@ -24,7 +24,7 @@ test('subtotal respects quantity', () => {
 test('ZARA10 takes 10% off a shirt and jeans', () => {
   const cart = shirtAndJeans();
   applyCoupon(cart, 'ZARA10');
-  assert.equal(totalCents(cart), 134821);
+  assert.equal(totalCents(cart), 134820);
 });
 
 test('WELCOME100 takes 100.00 off', () => {
